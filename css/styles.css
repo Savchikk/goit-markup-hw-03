@@ -142,6 +142,7 @@ p {
   display: block;
   margin: 0 auto;
   margin-top: 48px;
+  min-width: 169px;
 }
 
 .button:hover,
@@ -175,6 +176,7 @@ p {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+  margin-bottom: 72px;
 }
 
 .title {
@@ -184,6 +186,7 @@ p {
   letter-spacing: 0.02em;
   color: #2e2f42;
   flex-basis: calc((100% -72px) / 4);
+  margin-bottom: 120px;
 }
 
 .text {
@@ -197,6 +200,7 @@ p {
 .team-section {
   padding-top: 120px;
   padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .container team {
@@ -207,7 +211,6 @@ p {
 }
 
 .team-title {
-  background-color: #ffffff;
   font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
@@ -292,10 +295,13 @@ p {
 .portfolio-item {
   background: #fff;
   border: 1px solid #e7e9fc;
+  width: calc((100% - 48px) / 3);
 }
+
 .portfolio-image {
   background: url("path_to_image");
   margin-bottom: 32px;
+  margin: 0 auto;
 }
 
 .portfolio-title {
@@ -305,6 +311,7 @@ p {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  margin-top: 32px;
 }
 
 .portfolio-text {
