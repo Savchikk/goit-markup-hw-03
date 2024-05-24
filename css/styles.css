@@ -298,6 +298,7 @@ p {
 
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-link {
@@ -308,6 +309,8 @@ p {
   text-transform: uppercase;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
+  margin-bottom: 18px;
+  display: inline-block;
 }
 
 .footer-link-span {
@@ -326,6 +329,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 .team-section {
   background-color: #f4f4fd;
