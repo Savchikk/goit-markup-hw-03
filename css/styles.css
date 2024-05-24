@@ -192,6 +192,7 @@ p {
 
 .team-section {
   background: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-title {
@@ -220,6 +221,7 @@ p {
   text-transform: capitalize;
   border-radius: 0 0 4px 4px;
   width: calc((100% -72px) / 4);
+  margin-bottom: 8px;
 }
 
 .ourteam-item-box {
@@ -309,7 +311,7 @@ p {
   text-transform: uppercase;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
   display: inline-block;
 }
 
